@@ -1,0 +1,340 @@
+2023-11-08 21:22:03,494 INFO  AssemblyExportForm.cs: 309 - Saving URDF package to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj
+2023-11-08 21:22:03,498 INFO  ExportHelper.cs: 147 - Beginning the export process
+2023-11-08 21:22:03,499 INFO  ExportHelper.cs: 153 - Creating package directories with name robo_testj and save path C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES
+2023-11-08 21:22:04,656 INFO  ExportHelper.cs: 162 - Creating CMakeLists.txt at C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\CMakeLists.txt
+2023-11-08 21:22:04,658 INFO  ExportHelper.cs: 166 - Creating joint names config at C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\config\joint_names_robo_testj.yaml
+2023-11-08 21:22:04,659 INFO  ExportHelper.cs: 170 - Creating package.xml at C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\package.xml
+2023-11-08 21:22:04,659 INFO  PackageXMLWriter.cs: 21 - Creating package.xml at C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\package.xml
+2023-11-08 21:22:04,660 INFO  ExportHelper.cs: 177 - Creating RVIZ launch file in C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\launch\
+2023-11-08 21:22:04,661 INFO  ExportHelper.cs: 182 - Creating Gazebo launch file in C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\launch\
+2023-11-08 21:22:04,662 INFO  ExportHelper.cs: 187 - Saving existing STL preferences
+2023-11-08 21:22:04,662 INFO  ExportHelper.cs: 450 - Saving users preferences
+2023-11-08 21:22:04,663 INFO  ExportHelper.cs: 190 - Modifying STL preferences
+2023-11-08 21:22:04,663 INFO  ExportHelper.cs: 464 - Setting STL preferences
+2023-11-08 21:22:04,664 INFO  ExportHelper.cs: 196 - Found 0 hidden components 
+2023-11-08 21:22:04,664 INFO  ExportHelper.cs: 197 - Hiding all components
+2023-11-08 21:22:04,929 INFO  ExportHelper.cs: 204 - Beginning individual files export
+2023-11-08 21:22:04,931 INFO  ExportHelper.cs: 270 - Exporting link: chassis_HF
+2023-11-08 21:22:04,931 INFO  ExportHelper.cs: 272 - Link chassis_HF has 2 children
+2023-11-08 21:22:04,932 INFO  ExportHelper.cs: 270 - Exporting link: chassis_LF
+2023-11-08 21:22:04,932 INFO  ExportHelper.cs: 272 - Link chassis_LF has 2 children
+2023-11-08 21:22:04,932 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LFUU
+2023-11-08 21:22:04,932 INFO  ExportHelper.cs: 272 - Link hinge_LFUU has 1 children
+2023-11-08 21:22:04,933 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LFUL
+2023-11-08 21:22:04,933 INFO  ExportHelper.cs: 272 - Link hinge_LFUL has 1 children
+2023-11-08 21:22:04,933 INFO  ExportHelper.cs: 270 - Exporting link: leg_LFU
+2023-11-08 21:22:04,934 INFO  ExportHelper.cs: 272 - Link leg_LFU has 1 children
+2023-11-08 21:22:04,934 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LFLU
+2023-11-08 21:22:04,934 INFO  ExportHelper.cs: 272 - Link hinge_LFLU has 1 children
+2023-11-08 21:22:04,935 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LFLL
+2023-11-08 21:22:04,935 INFO  ExportHelper.cs: 272 - Link hinge_LFLL has 1 children
+2023-11-08 21:22:04,935 INFO  ExportHelper.cs: 270 - Exporting link: leg_LFL
+2023-11-08 21:22:04,935 INFO  ExportHelper.cs: 272 - Link leg_LFL has 0 children
+2023-11-08 21:22:04,936 INFO  ExportHelper.cs: 317 - leg_LFL: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:04,936 INFO  ExportHelper.cs: 322 - leg_LFL: Reference geometry name 
+2023-11-08 21:22:05,028 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_LFL.STL
+2023-11-08 21:22:05,111 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,111 INFO  ExportHelper.cs: 317 - hinge_LFLL: Exporting STL with coordinate frame Coordinate System4 <Assem_steel_leg_copy_LF-1>
+2023-11-08 21:22:05,112 INFO  ExportHelper.cs: 322 - hinge_LFLL: Reference geometry name Assem_steel_leg_copy_LF-1
+2023-11-08 21:22:05,159 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LFLL.STL
+2023-11-08 21:22:05,186 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,187 INFO  ExportHelper.cs: 317 - hinge_LFLU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,187 INFO  ExportHelper.cs: 322 - hinge_LFLU: Reference geometry name 
+2023-11-08 21:22:05,199 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LFLU.STL
+2023-11-08 21:22:05,226 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,227 INFO  ExportHelper.cs: 317 - leg_LFU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,227 INFO  ExportHelper.cs: 322 - leg_LFU: Reference geometry name 
+2023-11-08 21:22:05,239 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_LFU.STL
+2023-11-08 21:22:05,256 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,257 INFO  ExportHelper.cs: 317 - hinge_LFUL: Exporting STL with coordinate frame Coordinate System2 <Assem_steel_leg_copy_LF-1>
+2023-11-08 21:22:05,257 INFO  ExportHelper.cs: 322 - hinge_LFUL: Reference geometry name Assem_steel_leg_copy_LF-1
+2023-11-08 21:22:05,268 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LFUL.STL
+2023-11-08 21:22:05,292 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,292 INFO  ExportHelper.cs: 317 - hinge_LFUU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,293 INFO  ExportHelper.cs: 322 - hinge_LFUU: Reference geometry name 
+2023-11-08 21:22:05,304 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LFUU.STL
+2023-11-08 21:22:05,330 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,331 INFO  ExportHelper.cs: 270 - Exporting link: chassis_LM
+2023-11-08 21:22:05,331 INFO  ExportHelper.cs: 272 - Link chassis_LM has 2 children
+2023-11-08 21:22:05,332 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LMUU
+2023-11-08 21:22:05,332 INFO  ExportHelper.cs: 272 - Link hinge_LMUU has 1 children
+2023-11-08 21:22:05,333 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LMUL
+2023-11-08 21:22:05,333 INFO  ExportHelper.cs: 272 - Link hinge_LMUL has 1 children
+2023-11-08 21:22:05,333 INFO  ExportHelper.cs: 270 - Exporting link: leg_LMU
+2023-11-08 21:22:05,334 INFO  ExportHelper.cs: 272 - Link leg_LMU has 1 children
+2023-11-08 21:22:05,334 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LMLU
+2023-11-08 21:22:05,334 INFO  ExportHelper.cs: 272 - Link hinge_LMLU has 1 children
+2023-11-08 21:22:05,335 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LMLL
+2023-11-08 21:22:05,335 INFO  ExportHelper.cs: 272 - Link hinge_LMLL has 1 children
+2023-11-08 21:22:05,336 INFO  ExportHelper.cs: 270 - Exporting link: leg_LML
+2023-11-08 21:22:05,336 INFO  ExportHelper.cs: 272 - Link leg_LML has 0 children
+2023-11-08 21:22:05,336 INFO  ExportHelper.cs: 317 - leg_LML: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,336 INFO  ExportHelper.cs: 322 - leg_LML: Reference geometry name 
+2023-11-08 21:22:05,402 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_LML.STL
+2023-11-08 21:22:05,424 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,425 INFO  ExportHelper.cs: 317 - hinge_LMLL: Exporting STL with coordinate frame Coordinate System4 <Assem_steel_leg_copy_LM-1>
+2023-11-08 21:22:05,425 INFO  ExportHelper.cs: 322 - hinge_LMLL: Reference geometry name Assem_steel_leg_copy_LM-1
+2023-11-08 21:22:05,438 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LMLL.STL
+2023-11-08 21:22:05,567 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,568 INFO  ExportHelper.cs: 317 - hinge_LMLU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,568 INFO  ExportHelper.cs: 322 - hinge_LMLU: Reference geometry name 
+2023-11-08 21:22:05,619 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LMLU.STL
+2023-11-08 21:22:05,649 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,649 INFO  ExportHelper.cs: 317 - leg_LMU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,649 INFO  ExportHelper.cs: 322 - leg_LMU: Reference geometry name 
+2023-11-08 21:22:05,662 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_LMU.STL
+2023-11-08 21:22:05,681 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,681 INFO  ExportHelper.cs: 317 - hinge_LMUL: Exporting STL with coordinate frame Coordinate System2 <Assem_steel_leg_copy_LM-1>
+2023-11-08 21:22:05,681 INFO  ExportHelper.cs: 322 - hinge_LMUL: Reference geometry name Assem_steel_leg_copy_LM-1
+2023-11-08 21:22:05,694 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LMUL.STL
+2023-11-08 21:22:05,720 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,720 INFO  ExportHelper.cs: 317 - hinge_LMUU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,721 INFO  ExportHelper.cs: 322 - hinge_LMUU: Reference geometry name 
+2023-11-08 21:22:05,733 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LMUU.STL
+2023-11-08 21:22:05,760 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,761 INFO  ExportHelper.cs: 270 - Exporting link: chassis_LR
+2023-11-08 21:22:05,761 INFO  ExportHelper.cs: 272 - Link chassis_LR has 2 children
+2023-11-08 21:22:05,762 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LRUU
+2023-11-08 21:22:05,762 INFO  ExportHelper.cs: 272 - Link hinge_LRUU has 1 children
+2023-11-08 21:22:05,763 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LRUL
+2023-11-08 21:22:05,763 INFO  ExportHelper.cs: 272 - Link hinge_LRUL has 1 children
+2023-11-08 21:22:05,764 INFO  ExportHelper.cs: 270 - Exporting link: leg_LRU
+2023-11-08 21:22:05,764 INFO  ExportHelper.cs: 272 - Link leg_LRU has 1 children
+2023-11-08 21:22:05,764 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LRLU
+2023-11-08 21:22:05,765 INFO  ExportHelper.cs: 272 - Link hinge_LRLU has 1 children
+2023-11-08 21:22:05,765 INFO  ExportHelper.cs: 270 - Exporting link: hinge_LRLL
+2023-11-08 21:22:05,766 INFO  ExportHelper.cs: 272 - Link hinge_LRLL has 1 children
+2023-11-08 21:22:05,766 INFO  ExportHelper.cs: 270 - Exporting link: leg_LRL
+2023-11-08 21:22:05,767 INFO  ExportHelper.cs: 272 - Link leg_LRL has 0 children
+2023-11-08 21:22:05,767 INFO  ExportHelper.cs: 317 - leg_LRL: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,767 INFO  ExportHelper.cs: 322 - leg_LRL: Reference geometry name 
+2023-11-08 21:22:05,843 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_LRL.STL
+2023-11-08 21:22:05,863 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,864 INFO  ExportHelper.cs: 317 - hinge_LRLL: Exporting STL with coordinate frame Coordinate System4 <Assem_steel_leg_copy_LR-1>
+2023-11-08 21:22:05,864 INFO  ExportHelper.cs: 322 - hinge_LRLL: Reference geometry name Assem_steel_leg_copy_LR-1
+2023-11-08 21:22:05,877 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LRLL.STL
+2023-11-08 21:22:05,906 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,906 INFO  ExportHelper.cs: 317 - hinge_LRLU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,907 INFO  ExportHelper.cs: 322 - hinge_LRLU: Reference geometry name 
+2023-11-08 21:22:05,919 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LRLU.STL
+2023-11-08 21:22:05,955 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:05,956 INFO  ExportHelper.cs: 317 - leg_LRU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:05,956 INFO  ExportHelper.cs: 322 - leg_LRU: Reference geometry name 
+2023-11-08 21:22:05,974 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_LRU.STL
+2023-11-08 21:22:06,001 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,002 INFO  ExportHelper.cs: 317 - hinge_LRUL: Exporting STL with coordinate frame Coordinate System2 <Assem_steel_leg_copy_LR-1>
+2023-11-08 21:22:06,002 INFO  ExportHelper.cs: 322 - hinge_LRUL: Reference geometry name Assem_steel_leg_copy_LR-1
+2023-11-08 21:22:06,017 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LRUL.STL
+2023-11-08 21:22:06,047 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,047 INFO  ExportHelper.cs: 317 - hinge_LRUU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,047 INFO  ExportHelper.cs: 322 - hinge_LRUU: Reference geometry name 
+2023-11-08 21:22:06,061 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_LRUU.STL
+2023-11-08 21:22:06,088 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,089 INFO  ExportHelper.cs: 270 - Exporting link: chassis_HR
+2023-11-08 21:22:06,089 INFO  ExportHelper.cs: 272 - Link chassis_HR has 1 children
+2023-11-08 21:22:06,090 INFO  ExportHelper.cs: 270 - Exporting link: chassis_RR
+2023-11-08 21:22:06,090 INFO  ExportHelper.cs: 272 - Link chassis_RR has 2 children
+2023-11-08 21:22:06,090 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RRUU
+2023-11-08 21:22:06,091 INFO  ExportHelper.cs: 272 - Link hinge_RRUU has 1 children
+2023-11-08 21:22:06,091 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RRUL
+2023-11-08 21:22:06,091 INFO  ExportHelper.cs: 272 - Link hinge_RRUL has 1 children
+2023-11-08 21:22:06,092 INFO  ExportHelper.cs: 270 - Exporting link: leg_RRU
+2023-11-08 21:22:06,092 INFO  ExportHelper.cs: 272 - Link leg_RRU has 1 children
+2023-11-08 21:22:06,092 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RRLU
+2023-11-08 21:22:06,092 INFO  ExportHelper.cs: 272 - Link hinge_RRLU has 1 children
+2023-11-08 21:22:06,093 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RRLL
+2023-11-08 21:22:06,093 INFO  ExportHelper.cs: 272 - Link hinge_RRLL has 1 children
+2023-11-08 21:22:06,093 INFO  ExportHelper.cs: 270 - Exporting link: leg_RRL
+2023-11-08 21:22:06,094 INFO  ExportHelper.cs: 272 - Link leg_RRL has 0 children
+2023-11-08 21:22:06,094 INFO  ExportHelper.cs: 317 - leg_RRL: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,094 INFO  ExportHelper.cs: 322 - leg_RRL: Reference geometry name 
+2023-11-08 21:22:06,166 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_RRL.STL
+2023-11-08 21:22:06,187 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,187 INFO  ExportHelper.cs: 317 - hinge_RRLL: Exporting STL with coordinate frame Coordinate System4 <Assem_steel_leg_copy_RR-1>
+2023-11-08 21:22:06,188 INFO  ExportHelper.cs: 322 - hinge_RRLL: Reference geometry name Assem_steel_leg_copy_RR-1
+2023-11-08 21:22:06,206 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RRLL.STL
+2023-11-08 21:22:06,234 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,234 INFO  ExportHelper.cs: 317 - hinge_RRLU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,235 INFO  ExportHelper.cs: 322 - hinge_RRLU: Reference geometry name 
+2023-11-08 21:22:06,248 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RRLU.STL
+2023-11-08 21:22:06,276 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,277 INFO  ExportHelper.cs: 317 - leg_RRU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,277 INFO  ExportHelper.cs: 322 - leg_RRU: Reference geometry name 
+2023-11-08 21:22:06,291 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_RRU.STL
+2023-11-08 21:22:06,328 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,329 INFO  ExportHelper.cs: 317 - hinge_RRUL: Exporting STL with coordinate frame Coordinate System2 <Assem_steel_leg_copy_RR-1>
+2023-11-08 21:22:06,329 INFO  ExportHelper.cs: 322 - hinge_RRUL: Reference geometry name Assem_steel_leg_copy_RR-1
+2023-11-08 21:22:06,395 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RRUL.STL
+2023-11-08 21:22:06,425 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,426 INFO  ExportHelper.cs: 317 - hinge_RRUU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,426 INFO  ExportHelper.cs: 322 - hinge_RRUU: Reference geometry name 
+2023-11-08 21:22:06,444 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RRUU.STL
+2023-11-08 21:22:06,476 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,477 INFO  ExportHelper.cs: 270 - Exporting link: chassis_RM
+2023-11-08 21:22:06,478 INFO  ExportHelper.cs: 272 - Link chassis_RM has 2 children
+2023-11-08 21:22:06,478 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RMUU
+2023-11-08 21:22:06,478 INFO  ExportHelper.cs: 272 - Link hinge_RMUU has 1 children
+2023-11-08 21:22:06,479 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RMUL
+2023-11-08 21:22:06,479 INFO  ExportHelper.cs: 272 - Link hinge_RMUL has 1 children
+2023-11-08 21:22:06,479 INFO  ExportHelper.cs: 270 - Exporting link: leg_RMU
+2023-11-08 21:22:06,480 INFO  ExportHelper.cs: 272 - Link leg_RMU has 1 children
+2023-11-08 21:22:06,480 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RMLU
+2023-11-08 21:22:06,480 INFO  ExportHelper.cs: 272 - Link hinge_RMLU has 1 children
+2023-11-08 21:22:06,481 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RMLL
+2023-11-08 21:22:06,481 INFO  ExportHelper.cs: 272 - Link hinge_RMLL has 1 children
+2023-11-08 21:22:06,481 INFO  ExportHelper.cs: 270 - Exporting link: leg_RML
+2023-11-08 21:22:06,481 INFO  ExportHelper.cs: 272 - Link leg_RML has 0 children
+2023-11-08 21:22:06,482 INFO  ExportHelper.cs: 317 - leg_RML: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,482 INFO  ExportHelper.cs: 322 - leg_RML: Reference geometry name 
+2023-11-08 21:22:06,566 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_RML.STL
+2023-11-08 21:22:06,673 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,673 INFO  ExportHelper.cs: 317 - hinge_RMLL: Exporting STL with coordinate frame Coordinate System4 <Assem_steel_leg_copy_RM-1>
+2023-11-08 21:22:06,674 INFO  ExportHelper.cs: 322 - hinge_RMLL: Reference geometry name Assem_steel_leg_copy_RM-1
+2023-11-08 21:22:06,726 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RMLL.STL
+2023-11-08 21:22:06,758 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,759 INFO  ExportHelper.cs: 317 - hinge_RMLU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,759 INFO  ExportHelper.cs: 322 - hinge_RMLU: Reference geometry name 
+2023-11-08 21:22:06,775 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RMLU.STL
+2023-11-08 21:22:06,808 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,809 INFO  ExportHelper.cs: 317 - leg_RMU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,809 INFO  ExportHelper.cs: 322 - leg_RMU: Reference geometry name 
+2023-11-08 21:22:06,826 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_RMU.STL
+2023-11-08 21:22:06,849 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,850 INFO  ExportHelper.cs: 317 - hinge_RMUL: Exporting STL with coordinate frame Coordinate System2 <Assem_steel_leg_copy_RM-1>
+2023-11-08 21:22:06,850 INFO  ExportHelper.cs: 322 - hinge_RMUL: Reference geometry name Assem_steel_leg_copy_RM-1
+2023-11-08 21:22:06,866 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RMUL.STL
+2023-11-08 21:22:06,897 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,898 INFO  ExportHelper.cs: 317 - hinge_RMUU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,898 INFO  ExportHelper.cs: 322 - hinge_RMUU: Reference geometry name 
+2023-11-08 21:22:06,914 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RMUU.STL
+2023-11-08 21:22:06,945 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:06,946 INFO  ExportHelper.cs: 270 - Exporting link: chassis_2RF
+2023-11-08 21:22:06,946 INFO  ExportHelper.cs: 272 - Link chassis_2RF has 0 children
+2023-11-08 21:22:06,946 INFO  ExportHelper.cs: 317 - chassis_2RF: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:06,947 INFO  ExportHelper.cs: 322 - chassis_2RF: Reference geometry name 
+2023-11-08 21:22:07,043 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_2RF.STL
+2023-11-08 21:22:07,069 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,069 INFO  ExportHelper.cs: 317 - chassis_RM: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,070 INFO  ExportHelper.cs: 322 - chassis_RM: Reference geometry name 
+2023-11-08 21:22:07,091 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_RM.STL
+2023-11-08 21:22:07,135 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,136 INFO  ExportHelper.cs: 317 - chassis_RR: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,136 INFO  ExportHelper.cs: 322 - chassis_RR: Reference geometry name 
+2023-11-08 21:22:07,153 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_RR.STL
+2023-11-08 21:22:07,177 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,178 INFO  ExportHelper.cs: 317 - chassis_HR: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,178 INFO  ExportHelper.cs: 322 - chassis_HR: Reference geometry name 
+2023-11-08 21:22:07,194 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_HR.STL
+2023-11-08 21:22:07,217 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,218 INFO  ExportHelper.cs: 317 - chassis_LR: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,218 INFO  ExportHelper.cs: 322 - chassis_LR: Reference geometry name 
+2023-11-08 21:22:07,235 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_LR.STL
+2023-11-08 21:22:07,260 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,260 INFO  ExportHelper.cs: 317 - chassis_LM: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,261 INFO  ExportHelper.cs: 322 - chassis_LM: Reference geometry name 
+2023-11-08 21:22:07,278 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_LM.STL
+2023-11-08 21:22:07,302 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,303 INFO  ExportHelper.cs: 317 - chassis_LF: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,303 INFO  ExportHelper.cs: 322 - chassis_LF: Reference geometry name 
+2023-11-08 21:22:07,319 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_LF.STL
+2023-11-08 21:22:07,343 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,344 INFO  ExportHelper.cs: 270 - Exporting link: chassis_RF1
+2023-11-08 21:22:07,344 INFO  ExportHelper.cs: 272 - Link chassis_RF1 has 1 children
+2023-11-08 21:22:07,344 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RFUU
+2023-11-08 21:22:07,344 INFO  ExportHelper.cs: 272 - Link hinge_RFUU has 1 children
+2023-11-08 21:22:07,345 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RFUL
+2023-11-08 21:22:07,345 INFO  ExportHelper.cs: 272 - Link hinge_RFUL has 1 children
+2023-11-08 21:22:07,345 INFO  ExportHelper.cs: 270 - Exporting link: leg_RFU
+2023-11-08 21:22:07,345 INFO  ExportHelper.cs: 272 - Link leg_RFU has 1 children
+2023-11-08 21:22:07,346 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RFLU
+2023-11-08 21:22:07,346 INFO  ExportHelper.cs: 272 - Link hinge_RFLU has 1 children
+2023-11-08 21:22:07,346 INFO  ExportHelper.cs: 270 - Exporting link: hinge_RFLL
+2023-11-08 21:22:07,347 INFO  ExportHelper.cs: 272 - Link hinge_RFLL has 1 children
+2023-11-08 21:22:07,347 INFO  ExportHelper.cs: 270 - Exporting link: leg_RFL
+2023-11-08 21:22:07,347 INFO  ExportHelper.cs: 272 - Link leg_RFL has 0 children
+2023-11-08 21:22:07,347 INFO  ExportHelper.cs: 317 - leg_RFL: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,347 INFO  ExportHelper.cs: 322 - leg_RFL: Reference geometry name 
+2023-11-08 21:22:07,375 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_RFL.STL
+2023-11-08 21:22:07,399 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,399 INFO  ExportHelper.cs: 317 - hinge_RFLL: Exporting STL with coordinate frame Coordinate System4 <Assem_steel_leg_copy_RF-1>
+2023-11-08 21:22:07,399 INFO  ExportHelper.cs: 322 - hinge_RFLL: Reference geometry name Assem_steel_leg_copy_RF-1
+2023-11-08 21:22:07,427 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RFLL.STL
+2023-11-08 21:22:07,459 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,460 INFO  ExportHelper.cs: 317 - hinge_RFLU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,460 INFO  ExportHelper.cs: 322 - hinge_RFLU: Reference geometry name 
+2023-11-08 21:22:07,477 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RFLU.STL
+2023-11-08 21:22:07,507 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,507 INFO  ExportHelper.cs: 317 - leg_RFU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,508 INFO  ExportHelper.cs: 322 - leg_RFU: Reference geometry name 
+2023-11-08 21:22:07,524 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\leg_RFU.STL
+2023-11-08 21:22:07,548 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,548 INFO  ExportHelper.cs: 317 - hinge_RFUL: Exporting STL with coordinate frame Coordinate System2 <Assem_steel_leg_copy_RF-1>
+2023-11-08 21:22:07,549 INFO  ExportHelper.cs: 322 - hinge_RFUL: Reference geometry name Assem_steel_leg_copy_RF-1
+2023-11-08 21:22:07,565 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RFUL.STL
+2023-11-08 21:22:07,595 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,595 INFO  ExportHelper.cs: 317 - hinge_RFUU: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,596 INFO  ExportHelper.cs: 322 - hinge_RFUU: Reference geometry name 
+2023-11-08 21:22:07,612 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\hinge_RFUU.STL
+2023-11-08 21:22:07,644 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,644 INFO  ExportHelper.cs: 317 - chassis_RF1: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,645 INFO  ExportHelper.cs: 322 - chassis_RF1: Reference geometry name 
+2023-11-08 21:22:07,660 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_RF1.STL
+2023-11-08 21:22:07,685 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,685 INFO  ExportHelper.cs: 317 - chassis_HF: Exporting STL with coordinate frame Coordinate System3
+2023-11-08 21:22:07,685 INFO  ExportHelper.cs: 322 - chassis_HF: Reference geometry name 
+2023-11-08 21:22:07,702 INFO  ExportHelper.cs: 330 - Saving STL to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\meshes\chassis_HF.STL
+2023-11-08 21:22:07,725 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2023-11-08 21:22:07,726 INFO  ExportHelper.cs: 145 - Showing all components except previously hidden components
+2023-11-08 21:22:08,477 INFO  ExportHelper.cs: 145 - Resetting STL preferences
+2023-11-08 21:22:08,477 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2023-11-08 21:22:08,478 INFO  ExportHelper.cs: 228 - Writing URDF file to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\urdf\robo_testj.urdf
+2023-11-08 21:22:08,479 INFO  CSVImportExport.cs: 32 - Writing CSV file C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\urdf\robo_testj.csv
+2023-11-08 21:22:08,480 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,480 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,480 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,480 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,481 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,481 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,481 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,486 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,486 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,486 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,486 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,487 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,487 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,487 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,487 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,487 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,488 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,488 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,488 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,488 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,488 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,489 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,489 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,489 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,489 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,489 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,490 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,490 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,490 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,490 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,490 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,490 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,491 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,491 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,491 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,491 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,491 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,492 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,492 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,492 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,492 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,492 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,493 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,493 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,493 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2023-11-08 21:22:08,493 INFO  ExportHelper.cs: 234 - Copying log file
+2023-11-08 21:22:08,494 INFO  ExportHelper.cs: 439 - Copying C:\Users\ommore5807\sw2urdf_logs\sw2urdf.log to C:\summer 23 thesis om\Robot assembly with 2 linear actuators\URDF_FILES\robo_testj\export.log
+2023-11-08 21:22:08,494 INFO  ExportHelper.cs: 237 - Resetting STL preferences
+2023-11-08 21:22:08,494 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences

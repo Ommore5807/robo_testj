@@ -1,0 +1,2446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="robo_testj">
+  <link
+    name="chassis_HF">
+    <inertial>
+      <origin
+        xyz="0.0002709960995535 -2.3097 3.0674390986637"
+        rpy="0 0 0" />
+      <mass
+        value="1.14553964843948" />
+      <inertia
+        ixx="0.000887661133347916"
+        ixy="-3.60338191915583E-16"
+        ixz="7.4489300398418E-06"
+        iyy="0.645421265094593"
+        iyz="3.46944695195361E-18"
+        izz="0.64546170069783" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_HF.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_HF.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="chassis_LF">
+    <inertial>
+      <origin
+        xyz="1.325400743684 -1.3651837060807 3.06744220289828"
+        rpy="0 0 0" />
+      <mass
+        value="0.85413151633913" />
+      <inertia
+        ixx="0.267781210359732"
+        ixy="4.27645790183048E-07"
+        ixz="7.75132714290425E-12"
+        iyy="0.000661893125705084"
+        iyz="5.72780296765052E-06"
+        izz="0.267811490467313" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_LF.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_LF.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_LF_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_HF" />
+    <child
+      link="chassis_LF" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LFUU">
+    <inertial>
+      <origin
+        xyz="1.31940119390991 -1.97979869663496 3.04000418645596"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149563136450281" />
+      <inertia
+        ixx="2.77385603315176E-05"
+        ixy="1.55194104291337E-07"
+        ixz="-1.20680405472631E-08"
+        iyy="2.54407636969088E-06"
+        iyz="9.03333807920917E-07"
+        izz="3.00776373022327E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFUU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFUU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LFUU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_LF" />
+    <child
+      link="hinge_LFUU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LFUL">
+    <inertial>
+      <origin
+        xyz="0.000588050369219245 0.0356279587902821 -0.0406248091976473"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085812178605" />
+      <inertia
+        ixx="2.15499669262045E-05"
+        ixy="2.3940544133837E-09"
+        ixz="-3.24152162976677E-09"
+        iyy="1.57615982816036E-05"
+        iyz="1.04158873052147E-05"
+        izz="1.06411949885774E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFUL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFUL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LFUL_j"
+    type="revolute">
+    <origin
+      xyz="1.319051115875 -1.9351 3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LFUU" />
+    <child
+      link="hinge_LFUL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_LFU">
+    <inertial>
+      <origin
+        xyz="1.31905 -1.37853791962922 2.30383837259363"
+        rpy="0 0 0" />
+      <mass
+        value="0.455887097158491" />
+      <inertia
+        ixx="0.125864108246325"
+        ixy="2.62631842844135E-17"
+        ixz="-3.49519547163975E-17"
+        iyy="0.0804843168058584"
+        iyz="0.0603889020880948"
+        izz="0.0454998105413078" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LFU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LFU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_LFU_j"
+    type="fixed">
+    <origin
+      xyz="-1.319051115875 1.9351 -3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LFUL" />
+    <child
+      link="leg_LFU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LFLU">
+    <inertial>
+      <origin
+        xyz="1.31940071265911 -0.853686527671479 1.60314023799971"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149571932507083" />
+      <inertia
+        ixx="2.77412116251598E-05"
+        ixy="8.36605490261372E-08"
+        ixz="-1.31555318380957E-07"
+        iyy="2.10107463006582E-05"
+        iyz="1.2973090130617E-05"
+        izz="1.16139175577351E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFLU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFLU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LFLU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="leg_LFU" />
+    <child
+      link="hinge_LFLU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LFLL">
+    <inertial>
+      <origin
+        xyz="0.000588074530110505 -0.0252035996943971 -0.0477964909800797"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085870269154" />
+      <inertia
+        ixx="2.15499286295005E-05"
+        ixy="-2.16115901399052E-09"
+        ixz="-3.37979719250908E-09"
+        iyy="1.8250631640752E-05"
+        iyz="-9.46312638304581E-06"
+        izz="8.15228202281747E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFLL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LFLL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LFLL_j"
+    type="revolute">
+    <origin
+      xyz="1.319051115875 -0.829537548533551 1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LFLU" />
+    <child
+      link="hinge_LFLL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+    <dynamics
+      friction="5" />
+  </joint>
+  <link
+    name="leg_LFL">
+    <inertial>
+      <origin
+        xyz="1.318052231875 -1.31634709681232 0.781370798384165"
+        rpy="0 0 0" />
+      <mass
+        value="0.457331029801995" />
+      <inertia
+        ixx="0.126891575762233"
+        ixy="3.84093903862828E-17"
+        ixz="6.12504410538306E-17"
+        iyy="0.0910315088762407"
+        iyz="-0.057096555354568"
+        izz="0.0359808470983853" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LFL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LFL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_LFL_j"
+    type="fixed">
+    <origin
+      xyz="-1.319051115875 0.829537548533551 -1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LFLL" />
+    <child
+      link="leg_LFL" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_LM">
+    <inertial>
+      <origin
+        xyz="1.325400743684 0.573916293919297 3.06744220289828"
+        rpy="0 0 0" />
+      <mass
+        value="0.85413151633913" />
+      <inertia
+        ixx="0.267781210359733"
+        ixy="4.27645790176764E-07"
+        ixz="7.75132728678736E-12"
+        iyy="0.000661893125705082"
+        iyz="5.72780296765231E-06"
+        izz="0.267811490467314" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_LM.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_LM.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_LM_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_LF" />
+    <child
+      link="chassis_LM" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LMUU">
+    <inertial>
+      <origin
+        xyz="1.3194011939099 -0.0406986966349565 3.04000418645596"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149563136450274" />
+      <inertia
+        ixx="2.77385603315161E-05"
+        ixy="1.55194104291476E-07"
+        ixz="-1.20680405472494E-08"
+        iyy="2.54407636969094E-06"
+        iyz="9.03333807920728E-07"
+        izz="3.00776373022313E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMUU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMUU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LMUU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_LM" />
+    <child
+      link="hinge_LMUU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LMUL">
+    <inertial>
+      <origin
+        xyz="0.000588050369217483 0.0356279587902837 -0.0406248091976489"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085812178598" />
+      <inertia
+        ixx="2.15499669262045E-05"
+        ixy="2.39405441274928E-09"
+        ixz="-3.24152162898005E-09"
+        iyy="1.57615982816035E-05"
+        iyz="1.04158873052147E-05"
+        izz="1.06411949885773E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMUL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMUL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LMUL_j"
+    type="revolute">
+    <origin
+      xyz="1.319051115875 0.004 3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LMUU" />
+    <child
+      link="hinge_LMUL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_LMU">
+    <inertial>
+      <origin
+        xyz="1.31905 0.560562080370784 2.30383837259363"
+        rpy="0 0 0" />
+      <mass
+        value="0.455887097158489" />
+      <inertia
+        ixx="0.125864108246325"
+        ixy="2.52956855099662E-17"
+        ixz="-3.36827358883471E-17"
+        iyy="0.0804843168058582"
+        iyz="0.0603889020880947"
+        izz="0.0454998105413076" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LMU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LMU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_LMU_j"
+    type="fixed">
+    <origin
+      xyz="-1.319051115875 -0.00400000000000045 -3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LMUL" />
+    <child
+      link="leg_LMU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LMLU">
+    <inertial>
+      <origin
+        xyz="1.31940071265911 1.08541347232852 1.60314023799971"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149571932507083" />
+      <inertia
+        ixx="2.77412116251608E-05"
+        ixy="8.36605490259756E-08"
+        ixz="-1.31555318380772E-07"
+        iyy="2.10107463006589E-05"
+        iyz="1.29730901306174E-05"
+        izz="1.16139175577353E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMLU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMLU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LMLU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="leg_LMU" />
+    <child
+      link="hinge_LMLU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LMLL">
+    <inertial>
+      <origin
+        xyz="0.000588074530109173 -0.025203599694398 -0.0477964909800812"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085870269145" />
+      <inertia
+        ixx="2.15499286294986E-05"
+        ixy="-2.16115901371807E-09"
+        ixz="-3.37979719195921E-09"
+        iyy="1.82506316407503E-05"
+        iyz="-9.46312638304498E-06"
+        izz="8.15228202281671E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMLL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LMLL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LMLL_j"
+    type="revolute">
+    <origin
+      xyz="1.319051115875 1.10956245146645 1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LMLU" />
+    <child
+      link="hinge_LMLL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_LML">
+    <inertial>
+      <origin
+        xyz="1.318052231875 0.622752903187685 0.781370798384166"
+        rpy="0 0 0" />
+      <mass
+        value="0.457331029801997" />
+      <inertia
+        ixx="0.126891575762233"
+        ixy="3.84693838490947E-17"
+        ixz="6.13510067205588E-17"
+        iyy="0.091031508876241"
+        iyz="-0.0570965553545682"
+        izz="0.0359808470983854" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LML.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LML.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_LML_j"
+    type="fixed">
+    <origin
+      xyz="-1.319051115875 -1.10956245146645 -1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LMLL" />
+    <child
+      link="leg_LML" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_LR">
+    <inertial>
+      <origin
+        xyz="1.32540182192105 1.93943554068757 3.06745242153638"
+        rpy="0 0 0" />
+      <mass
+        value="0.348645154210864" />
+      <inertia
+        ixx="0.0183400237515158"
+        ixy="6.3305031768035E-08"
+        ixz="1.42422505265007E-11"
+        iyy="0.000270215601281127"
+        iyz="2.54580569795893E-06"
+        izz="0.0183525115598068" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_LR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_LR.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_LR_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_LM" />
+    <child
+      link="chassis_LR" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LRUU">
+    <inertial>
+      <origin
+        xyz="1.3194011939099 1.89840130336505 3.04000418645596"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149563136450296" />
+      <inertia
+        ixx="2.77385603315183E-05"
+        ixy="1.55194104291429E-07"
+        ixz="-1.2068040547289E-08"
+        iyy="2.54407636969109E-06"
+        iyz="9.03333807921139E-07"
+        izz="3.00776373022336E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRUU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRUU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LRUU_j"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_LR" />
+    <child
+      link="hinge_LRUU" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="hinge_LRUL">
+    <inertial>
+      <origin
+        xyz="0.000588050369217191 0.0356279587902826 -0.0406248091976475"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085812178603" />
+      <inertia
+        ixx="2.15499669262048E-05"
+        ixy="2.39405441277628E-09"
+        ixz="-3.24152162909406E-09"
+        iyy="1.57615982816038E-05"
+        iyz="1.04158873052149E-05"
+        izz="1.06411949885775E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRUL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRUL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LRUL_j"
+    type="revolute">
+    <origin
+      xyz="1.319051115875 1.9431 3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LRUU" />
+    <child
+      link="hinge_LRUL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_LRU">
+    <inertial>
+      <origin
+        xyz="1.31905 2.49966208037078 2.30383837259363"
+        rpy="0 0 0" />
+      <mass
+        value="0.455887097158487" />
+      <inertia
+        ixx="0.125864108246324"
+        ixy="2.52639530584899E-17"
+        ixz="-3.36782052786086E-17"
+        iyy="0.0804843168058579"
+        iyz="0.0603889020880944"
+        izz="0.0454998105413074" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LRU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LRU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_LRU_j"
+    type="fixed">
+    <origin
+      xyz="-1.319051115875 -1.9431 -3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LRUL" />
+    <child
+      link="leg_LRU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LRLU">
+    <inertial>
+      <origin
+        xyz="1.31940071265911 3.02451347232853 1.60314023799969"
+        rpy="0 0 0" />
+      <mass
+        value="0.014957193250716" />
+      <inertia
+        ixx="2.7741211625166E-05"
+        ixy="8.36605490255754E-08"
+        ixz="-1.3155531838008E-07"
+        iyy="2.10107463006637E-05"
+        iyz="1.29730901306197E-05"
+        izz="1.16139175577375E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRLU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRLU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LRLU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="leg_LRU" />
+    <child
+      link="hinge_LRLU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_LRLL">
+    <inertial>
+      <origin
+        xyz="0.000588074530112948 -0.0252035996943958 -0.0477964909800788"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085870269157" />
+      <inertia
+        ixx="2.15499286295009E-05"
+        ixy="-2.1611590144551E-09"
+        ixz="-3.37979719354107E-09"
+        iyy="1.8250631640752E-05"
+        iyz="-9.46312638304606E-06"
+        izz="8.15228202281756E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRLL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_LRLL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_LRLL_j"
+    type="revolute">
+    <origin
+      xyz="1.319051115875 3.04866245146645 1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LRLU" />
+    <child
+      link="hinge_LRLL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_LRL">
+    <inertial>
+      <origin
+        xyz="1.318052231875 2.56185290318769 0.781370798384165"
+        rpy="0 0 0" />
+      <mass
+        value="0.457331029801997" />
+      <inertia
+        ixx="0.126891575762233"
+        ixy="3.85090435023883E-17"
+        ixz="6.13961211384902E-17"
+        iyy="0.091031508876241"
+        iyz="-0.0570965553545681"
+        izz="0.0359808470983854" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LRL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_LRL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_LRL_j"
+    type="fixed">
+    <origin
+      xyz="-1.319051115875 -3.04866245146645 -1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_LRLL" />
+    <child
+      link="leg_LRL" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_HR">
+    <inertial>
+      <origin
+        xyz="0.000270996099558607 2.3097 3.0674390986637"
+        rpy="0 0 0" />
+      <mass
+        value="1.14553964843946" />
+      <inertia
+        ixx="0.0008876611333479"
+        ixy="-5.25047745445902E-16"
+        ixz="7.44893003995583E-06"
+        iyy="0.645421265094591"
+        iyz="3.46944695195361E-18"
+        izz="0.645461700697828" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_HR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_HR.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_HR_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_LR" />
+    <child
+      link="chassis_HR" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_RR">
+    <inertial>
+      <origin
+        xyz="-1.32539817807895 1.93943554068756 3.06745242153638"
+        rpy="0 0 0" />
+      <mass
+        value="0.348645154210864" />
+      <inertia
+        ixx="0.0183400237515157"
+        ixy="6.33050317942114E-08"
+        ixz="1.42422487214959E-11"
+        iyy="0.000270215601281075"
+        iyz="2.54580569797019E-06"
+        izz="0.0183525115598066" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_RR.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_RR.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_RR_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_HR" />
+    <child
+      link="chassis_RR" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RRUU">
+    <inertial>
+      <origin
+        xyz="-1.3313988060901 1.89840130336505 3.04000418645596"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149563136450328" />
+      <inertia
+        ixx="2.7738560331523E-05"
+        ixy="1.55194104291587E-07"
+        ixz="-1.2068040547337E-08"
+        iyy="2.54407636969122E-06"
+        iyz="9.03333807921331E-07"
+        izz="3.00776373022383E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRUU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRUU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RRUU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_RR" />
+    <child
+      link="hinge_RRUU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RRUL">
+    <inertial>
+      <origin
+        xyz="0.000588050369220827 0.035627958790287 -0.0406248091976518"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085812178577" />
+      <inertia
+        ixx="2.15499669262002E-05"
+        ixy="2.39405441398401E-09"
+        ixz="-3.24152163046508E-09"
+        iyy="1.57615982816008E-05"
+        iyz="1.04158873052126E-05"
+        izz="1.06411949885747E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRUL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRUL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RRUL_j"
+    type="revolute">
+    <origin
+      xyz="-1.331748884125 1.9431 3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RRUU" />
+    <child
+      link="hinge_RRUL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_RRU">
+    <inertial>
+      <origin
+        xyz="-1.33175 2.49966208037078 2.30383837259363"
+        rpy="0 0 0" />
+      <mass
+        value="0.455887097158492" />
+      <inertia
+        ixx="0.125864108246326"
+        ixy="1.19272472970418E-17"
+        ixz="-1.61859333925798E-17"
+        iyy="0.080484316805859"
+        iyz="0.0603889020880953"
+        izz="0.0454998105413082" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RRU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RRU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_RRU_j"
+    type="fixed">
+    <origin
+      xyz="1.331748884125 -1.9431 -3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RRUL" />
+    <child
+      link="leg_RRU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RRLU">
+    <inertial>
+      <origin
+        xyz="-1.33139928734089 3.02451347232853 1.60314023799969"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149571932507147" />
+      <inertia
+        ixx="2.77412116251648E-05"
+        ixy="8.36605490270477E-08"
+        ixz="-1.31555318382051E-07"
+        iyy="2.10107463006627E-05"
+        iyz="1.29730901306188E-05"
+        izz="1.16139175577357E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRLU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRLU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RRLU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="leg_RRU" />
+    <child
+      link="hinge_RRLU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RRLL">
+    <inertial>
+      <origin
+        xyz="-1.33116080959489 3.02345885177205 1.51757654421509"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085870269088" />
+      <inertia
+        ixx="2.15499286294909E-05"
+        ixy="-2.16115901341301E-09"
+        ixz="-3.37979719140459E-09"
+        iyy="1.82506316407424E-05"
+        iyz="-9.46312638304201E-06"
+        izz="8.15228202281361E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRLL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RRLL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RRLL_j"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RRLU" />
+    <child
+      link="hinge_RRLL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_RRL">
+    <inertial>
+      <origin
+        xyz="-1.332747768125 2.56185290318769 0.781370798384169"
+        rpy="0 0 0" />
+      <mass
+        value="0.457331029802001" />
+      <inertia
+        ixx="0.126891575762235"
+        ixy="4.06217599129526E-17"
+        ixz="6.47782979838884E-17"
+        iyy="0.0910315088762422"
+        iyz="-0.0570965553545688"
+        izz="0.0359808470983858" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RRL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RRL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_RRL_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RRLL" />
+    <child
+      link="leg_RRL" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_RM">
+    <inertial>
+      <origin
+        xyz="-1.325399256316 0.573916293919287 3.06744220289828"
+        rpy="0 0 0" />
+      <mass
+        value="0.854131516339125" />
+      <inertia
+        ixx="0.267781210359729"
+        ixy="4.2764579017582E-07"
+        ixz="7.75132668857034E-12"
+        iyy="0.000661893125705086"
+        iyz="5.72780296772859E-06"
+        izz="0.26781149046731" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_RM.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_RM.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_RM_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_RR" />
+    <child
+      link="chassis_RM" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RMUU">
+    <inertial>
+      <origin
+        xyz="-1.33139880609009 -0.0406986966349563 3.04000418645596"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149563136450288" />
+      <inertia
+        ixx="2.77385603315159E-05"
+        ixy="1.55194104291491E-07"
+        ixz="-1.20680405472786E-08"
+        iyy="2.54407636969077E-06"
+        iyz="9.03333807920682E-07"
+        izz="3.0077637302231E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMUU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMUU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RMUU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_RM" />
+    <child
+      link="hinge_RMUU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RMUL">
+    <inertial>
+      <origin
+        xyz="0.000588050369222159 0.0356279587902908 -0.0406248091976569"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085812178561" />
+      <inertia
+        ixx="2.15499669261991E-05"
+        ixy="2.39405441423407E-09"
+        ixz="-3.24152163066224E-09"
+        iyy="1.57615982815996E-05"
+        iyz="1.0415887305212E-05"
+        izz="1.06411949885737E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMUL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMUL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RMUL_j"
+    type="revolute">
+    <origin
+      xyz="-1.331748884125 0.00399999999999801 3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RMUU" />
+    <child
+      link="hinge_RMUL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_RMU">
+    <inertial>
+      <origin
+        xyz="-1.33175 0.560562080370782 2.30383837259363"
+        rpy="0 0 0" />
+      <mass
+        value="0.455887097158492" />
+      <inertia
+        ixx="0.125864108246327"
+        ixy="1.19057984007497E-17"
+        ixz="-1.61640069538259E-17"
+        iyy="0.0804843168058593"
+        iyz="0.0603889020880955"
+        izz="0.0454998105413083" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RMU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RMU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_RMU_j"
+    type="fixed">
+    <origin
+      xyz="1.331748884125 -0.00399999999999845 -3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RMUL" />
+    <child
+      link="leg_RMU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RMLU">
+    <inertial>
+      <origin
+        xyz="-1.33139928734089 1.08541347232853 1.6031402379997"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149571932507182" />
+      <inertia
+        ixx="2.77412116251714E-05"
+        ixy="8.36605490261018E-08"
+        ixz="-1.31555318380836E-07"
+        iyy="2.10107463006676E-05"
+        iyz="1.29730901306218E-05"
+        izz="1.16139175577383E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMLU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMLU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RMLU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="leg_RMU" />
+    <child
+      link="hinge_RMLU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RMLL">
+    <inertial>
+      <origin
+        xyz="0.000588074530110561 -0.0252035996943984 -0.0477964909800831"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085870269131" />
+      <inertia
+        ixx="2.15499286294972E-05"
+        ixy="-2.16115901389262E-09"
+        ixz="-3.37979719233912E-09"
+        iyy="1.82506316407489E-05"
+        iyz="-9.46312638304436E-06"
+        izz="8.15228202281601E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMLL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RMLL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RMLL_j"
+    type="revolute">
+    <origin
+      xyz="-1.3317 1.1096 1.5654"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RMLU" />
+    <child
+      link="hinge_RMLL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_RML">
+    <inertial>
+      <origin
+        xyz="-1.332747768125 0.622752903187686 0.781370798384169"
+        rpy="0 0 0" />
+      <mass
+        value="0.457331029802" />
+      <inertia
+        ixx="0.126891575762235"
+        ixy="4.06588220910341E-17"
+        ixz="6.48468128256244E-17"
+        iyy="0.0910315088762421"
+        iyz="-0.0570965553545688"
+        izz="0.0359808470983858" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RML.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RML.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_RML_j"
+    type="fixed">
+    <origin
+      xyz="1.331748884125 -1.10956245146645 -1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RMLL" />
+    <child
+      link="leg_RML" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_2RF">
+    <inertial>
+      <origin
+        xyz="-1.325399256316 -1.36518370608071 3.06744220289828"
+        rpy="0 0 0" />
+      <mass
+        value="0.854131516339125" />
+      <inertia
+        ixx="0.267781210359728"
+        ixy="4.27645790194046E-07"
+        ixz="7.7513257050956E-12"
+        iyy="0.000661893125705086"
+        iyz="5.72780296769559E-06"
+        izz="0.267811490467309" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_2RF.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_2RF.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_2RF_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_RM" />
+    <child
+      link="chassis_2RF" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="chassis_RF1">
+    <inertial>
+      <origin
+        xyz="-1.325399256316 -1.36518370608071 3.06744220289828"
+        rpy="0 0 0" />
+      <mass
+        value="0.854131516339125" />
+      <inertia
+        ixx="0.267781210359728"
+        ixy="4.27645790194045E-07"
+        ixz="7.75132570506913E-12"
+        iyy="0.000661893125705085"
+        iyz="5.72780296769909E-06"
+        izz="0.267811490467309" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_RF1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/chassis_RF1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="chassis_RF1_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_HF" />
+    <child
+      link="chassis_RF1" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RFUU">
+    <inertial>
+      <origin
+        xyz="-1.33139880609009 -1.97979869663493 3.04000418645596"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149563136450385" />
+      <inertia
+        ixx="2.77385603315276E-05"
+        ixy="1.55194104291436E-07"
+        ixz="-1.20680405472776E-08"
+        iyy="2.5440763696911E-06"
+        iyz="9.03333807922764E-07"
+        izz="3.00776373022423E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFUU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFUU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RFUU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="chassis_RF1" />
+    <child
+      link="hinge_RFUU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RFUL">
+    <inertial>
+      <origin
+        xyz="0.000588050369220383 0.03562795879029 -0.0406248091976562"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085812178572" />
+      <inertia
+        ixx="2.15499669261977E-05"
+        ixy="2.39405441365216E-09"
+        ixz="-3.24152163014853E-09"
+        iyy="1.57615982815987E-05"
+        iyz="1.04158873052114E-05"
+        izz="1.06411949885735E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFUL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFUL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RFUL_j"
+    type="revolute">
+    <origin
+      xyz="-1.331748884125 -1.9351 3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RFUU" />
+    <child
+      link="hinge_RFUL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_RFU">
+    <inertial>
+      <origin
+        xyz="-1.33175 -1.37853791962922 2.30383837259363"
+        rpy="0 0 0" />
+      <mass
+        value="0.455887097158494" />
+      <inertia
+        ixx="0.125864108246327"
+        ixy="1.28091600610031E-17"
+        ixz="-1.73504703934759E-17"
+        iyy="0.0804843168058595"
+        iyz="0.0603889020880957"
+        izz="0.0454998105413084" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RFU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RFU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_RFU_j"
+    type="fixed">
+    <origin
+      xyz="1.331748884125 1.9351 -3.03662148974063"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RFUL" />
+    <child
+      link="leg_RFU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RFLU">
+    <inertial>
+      <origin
+        xyz="-1.33139928734089 -0.853686527671487 1.60314023799972"
+        rpy="0 0 0" />
+      <mass
+        value="0.0149571932507023" />
+      <inertia
+        ixx="2.77412116251533E-05"
+        ixy="8.36605490262946E-08"
+        ixz="-1.31555318381274E-07"
+        iyy="2.10107463006535E-05"
+        iyz="1.2973090130614E-05"
+        izz="1.16139175577329E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFLU.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFLU.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RFLU_j"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="leg_RFU" />
+    <child
+      link="hinge_RFLU" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="hinge_RFLL">
+    <inertial>
+      <origin
+        xyz="0.000588074530114113 -0.0252035996943959 -0.0477964909800767"
+        rpy="0 0 0" />
+      <mass
+        value="0.0124085870269165" />
+      <inertia
+        ixx="2.15499286295028E-05"
+        ixy="-2.16115901461736E-09"
+        ixz="-3.37979719396154E-09"
+        iyy="1.82506316407541E-05"
+        iyz="-9.46312638304665E-06"
+        izz="8.15228202281819E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFLL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/hinge_RFLL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hinge_RFLL_j"
+    type="revolute">
+    <origin
+      xyz="-1.331748884125 -0.829537548533553 1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RFLU" />
+    <child
+      link="hinge_RFLL" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-0.349"
+      upper="0.349"
+      effort="100"
+      velocity="1.3" />
+  </joint>
+  <link
+    name="leg_RFL">
+    <inertial>
+      <origin
+        xyz="-1.332747768125 -1.31634709681232 0.781370798384169"
+        rpy="0 0 0" />
+      <mass
+        value="0.457331029801998" />
+      <inertia
+        ixx="0.126891575762234"
+        ixy="4.0674425962471E-17"
+        ixz="6.48234587117221E-17"
+        iyy="0.0910315088762418"
+        iyz="-0.0570965553545686"
+        izz="0.0359808470983857" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RFL.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robo_testj/meshes/leg_RFL.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="leg_RFL_j"
+    type="fixed">
+    <origin
+      xyz="1.331748884125 0.829537548533553 -1.56537303519519"
+      rpy="0 0 0" />
+    <parent
+      link="hinge_RFLL" />
+    <child
+      link="leg_RFL" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

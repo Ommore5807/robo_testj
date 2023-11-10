@@ -1,0 +1,1 @@
+controller_joint_names: ['', 'hinge_LFUL_j', 'hinge_LFLL_j', 'hinge_LMUL_j', 'hinge_LMLL_j', 'hinge_LRUU_j', 'hinge_LRUL_j', 'hinge_LRLL_j', 'hinge_RRUL_j', 'hinge_RRLL_j', 'hinge_RMUL_j', 'hinge_RMLL_j', 'hinge_RFUL_j', 'hinge_RFLL_j', ]
